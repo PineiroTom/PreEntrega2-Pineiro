@@ -1,0 +1,225 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #FFF275;
+    padding: 20px;
+    height: 100px;
+}
+
+.logo{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.barra{
+    float:right;
+    border: 5px solid black;
+    padding-right: 30px;
+}
+
+.barra ul li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.barra a{
+    color: #B6A6CA;
+}
+
+.barra a:hover{
+    color: black;
+}
+.mainIndex{
+    height: 100vh;
+    width: 100%;
+    background-image: url(multi/skyscrapers-3184798_1920.jpg);
+    background-size: cover;
+}
+
+.promocion{
+    background-color: #FFF275;
+    font-size: medium;
+    width: 60%;
+    color: #B6A6CA;
+    float: left;
+    border: 10px solid black;
+    margin: 5px;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.redes a{
+    font-size: 50px;
+    color: #FFF275;
+    letter-spacing: 15px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Nosotros */
+.mainNos{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainNos p{
+    color: #FFF275;
+}
+
+.imagen1{
+    background-image: url(/multi/woman-4702060_1920.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 45% ;
+    display: inline-block;
+    background-position: left;
+}
+
+.Laura{
+    float:left;
+    width: 30%;
+    font-size: 15px;
+}
+
+.imagen2{
+    background-image: url(/multi/estudiante-6052719_1920.jpg);
+    background-size: cover;
+    float: right;
+    height: 50%;
+    width: 45%;
+}
+
+.Ricardito{
+    float:right;
+    width: 40%;
+    font-size: 15px;
+}
+
+/* Paquetes */
+.mainPaq{
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+}
+
+.imagenPlaya{
+    background-size: cover;
+    height: 30%;
+    width: 45%;
+    display: inline-block;
+}
+
+.imagenCiudad{
+    background-size: cover;
+    height: 625px;
+    width: 45%;
+    float: right;
+}
+
+.textoPlaya{
+    border: 5px solid black;
+    float:left;
+    width: 40%;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.textoCiudad{
+    border: 5px solid black;
+    float:right;
+    width: 40%;
+    font-size: 15px;
+    margin:10px;
+    padding: 20px;
+}
+
+.boton{
+    border: 5px #B6A6CA;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+}
+
+
+/* Contactos */
+
+.mainCont{
+    background-image: url(/multi/teamwork-3213924_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.Paquete2{
+    border: 5px solid #B6A6CA;
+    width: 30%;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    margin: 30px;
+    padding: 20px;
+}
+
+.redesCont a{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.wsp{
+    color:green;
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: rgba(4, 98, 206, 0.747);
+}
+.instagram{
+    color: rgb(255, 210, 143);
+}
+
+/* Servicios */
+
+.mainServ{
+    background-color: #B6A6CA;
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.mainServ a{
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+.mainServ a:hover{
+    color: #FFF275;
+}
