@@ -9,36 +9,15 @@ html{
     scroll-behavior: smooth;
 }
 
-header{
-    background-color: #FFF275;
-    padding: 20px;
-    height: 100px;
+.navbar{
+    background-color: #FFF275 !important;
 }
 
-.logo{
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.barra{
-    float:right;
-    border: 5px solid black;
-    padding-right: 30px;
-}
-
-.barra ul li{
-    display: inline-block;
-    font-weight: bold;
-}
-
-.barra a{
+.nav-link{
     color: #B6A6CA;
+    font-weight: bolder;
 }
 
-.barra a:hover{
-    color: black;
-}
 .mainIndex{
     height: 100vh;
     width: 100%;
