@@ -1,34 +1,43 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+
 .navbar{
     background-color: #FFF275 !important;
+    height: 100px !important;
+    text-indent: 10px;
 }
 
-.nav-link{
-    color: #B6A6CA;
+.nav-link, .navbar-brand{
+    color: black;
     font-weight: bolder;
+    scale: 1.2;
+}
+
+.nav-link:hover{
+    color: #B6A6CA;
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 .mainIndex{
     height: 100vh;
     width: 100%;
-    background-image: url(multi/skyscrapers-3184798_1920.jpg);
+    background-image: url(../Assets/skyscrapers-3184798_1920.jpg);
     background-size: cover;
 }
 
 .promocion{
     background-color: #FFF275;
     font-size: medium;
-    width: 60%;
+    width: 100%;
     color: #B6A6CA;
     float: left;
     border: 10px solid black;
@@ -70,80 +79,18 @@ h1{
     color: #FFF275;
 }
 
-.imagen1{
-    background-image: url(/multi/woman-4702060_1920.jpg);
+.imagen1, .imagen2{
     background-size: cover;
-    height: 50%;
-    width: 45% ;
-    display: inline-block;
-    background-position: left;
+    height: 600px;
+    width: 600px;
 }
 
-.Laura{
-    float:left;
-    width: 30%;
-    font-size: 15px;
-}
-
-.imagen2{
-    background-image: url(/multi/estudiante-6052719_1920.jpg);
-    background-size: cover;
-    float: right;
-    height: 50%;
-    width: 45%;
-}
-
-.Ricardito{
-    float:right;
-    width: 40%;
-    font-size: 15px;
-}
 
 /* Paquetes */
 .mainPaq{
     background-color: grey;
     height: 100vh;
     width: 100%;
-}
-
-.imagenPlaya{
-    background-size: cover;
-    height: 30%;
-    width: 45%;
-    display: inline-block;
-}
-
-.imagenCiudad{
-    background-size: cover;
-    height: 625px;
-    width: 45%;
-    float: right;
-}
-
-.textoPlaya{
-    border: 5px solid black;
-    float:left;
-    width: 40%;
-    font-size: 15px;
-    margin: 10px;
-    padding: 20px;
-}
-
-.textoCiudad{
-    border: 5px solid black;
-    float:right;
-    width: 40%;
-    font-size: 15px;
-    margin:10px;
-    padding: 20px;
-}
-
-.boton{
-    border: 5px #B6A6CA;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: black;
-    padding: 10px;
 }
 
 
