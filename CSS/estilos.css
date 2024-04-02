@@ -34,6 +34,16 @@ html{
     background-size: cover;
 }
 
+.mainIndex h2,p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainIndex h2{
+    text-decoration: underline;
+}
+
+
 .promocion{
     background-color: #FFF275;
     font-size: medium;
@@ -70,19 +80,9 @@ h1{
 
 /* Nosotros */
 .mainNos{
-    background-color: black;
+    background-color: white;
     height: 100vh;
     width: 100%;
-}
-
-.mainNos p{
-    color: #FFF275;
-}
-
-.imagen1, .imagen2{
-    background-size: cover;
-    height: 600px;
-    width: 600px;
 }
 
 
@@ -93,6 +93,11 @@ h1{
     width: 100%;
 }
 
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 15px;  
+}
 
 /* Contactos */
 
