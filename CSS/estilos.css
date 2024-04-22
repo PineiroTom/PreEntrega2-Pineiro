@@ -1,155 +1,159 @@
-*{
-    margin: 0 ;
-    padding: 0 ;
-    box-sizing: border-box ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-
-.navbar{
-    background-color: #FFF275 !important;
-    height: 100px !important;
-    text-indent: 10px;
+.navbar {
+  background-color: #FFF275 !important;
+  height: 100px !important;
+  text-indent: 10px;
 }
 
-.nav-link, .navbar-brand{
-    color: black;
-    font-weight: bolder;
-    scale: 1.2;
+.nav-link, .navbar-brand {
+  color: black;
+  font-weight: bolder;
+  scale: 1.2;
 }
 
-.nav-link:hover{
-    color: #B6A6CA;
-    transition: 1s;
-    transform: scale(1.1);
+.nav-link:hover {
+  color: #B6A6CA;
+  transition: 1s;
+  transform: scale(1.1);
 }
 
-.mainIndex{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../Assets/skyscrapers-3184798_1920.jpg);
-    background-size: cover;
+.mainIndex {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../Assets/skyscrapers-3184798_1920.jpg);
+  background-size: cover;
+}
+.mainIndex h2, .mainIndex p {
+  text-align: center;
+  font-weight: bold;
 }
 
-.mainIndex h2,p{
-    text-align: center;
-    font-weight: bold;
+.mainIndex h2 {
+  text-decoration: underline;
 }
 
-.mainIndex h2{
-    text-decoration: underline;
+.promocion {
+  background-color: #FFF275;
+  font-size: medium;
+  width: 100%;
+  color: #B6A6CA;
+  float: left;
+  border: 10px solid black;
+  margin: 5px;
+  padding: 30px;
 }
 
-
-.promocion{
-    background-color: #FFF275;
-    font-size: medium;
-    width: 100%;
-    color: #B6A6CA;
-    float: left;
-    border: 10px solid black;
-    margin: 5px;
-    padding: 30px;
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  margin-bottom: 20px;
 }
 
-footer{
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    padding:20px;
+.redes a {
+  font-size: 50px;
+  color: #FFF275;
+  letter-spacing: 15px;
+  text-decoration: none;
+}
+.redes a:hover {
+  color: white;
+  transition: 1.5s;
 }
 
-footer p{
-    color: white;
-    margin-bottom: 20px;
-}
-
-.redes a{
-    font-size: 50px;
-    color: #FFF275;
-    letter-spacing: 15px;
-    text-decoration: none;
-}
-
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Nosotros */
-.mainNos{
-    background-color: white;
-    width: 100%;
+.mainNos {
+  background-color: white;
+  width: 100%;
 }
-
 
 /* Paquetes */
-.mainPaq{
-    background-color: grey;
-    height: 100vh;
-    width: 100%;
+.mainPaq {
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
 }
 
-.titulo{
-    text-align: center;
-    color: white;
-    padding: 15px;  
+.titulo {
+  text-align: center;
+  color: white;
+  padding: 15px;
 }
 
 /* Contactos */
-
-.mainCont{
-    background-image: url(/multi/teamwork-3213924_1920.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+.mainCont {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../Assets/people-2557396_1920.jpg);
+  background-size: cover;
 }
 
-.Paquete2{
-    border: 5px solid #B6A6CA;
-    width: 30%;
-    color: white;
-    background-color: rgba(0, 0, 0, 1);
-    margin: 30px;
-    padding: 20px;
+.Paquete2 {
+  border: 5px solid #B6A6CA;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 20px;
 }
 
-.redesCont a{
-    font-size: 40px;
-    text-decoration: none;
+.redesCont a {
+  font-size: 40px;
+  text-decoration: none;
 }
 
-.wsp{
-    color:green;
+.wsp {
+  color: green;
 }
-.facebook{
-    color: blue;
+
+.facebook {
+  color: blue;
 }
-.twitter{
-    color: rgba(4, 98, 206, 0.747);
+
+.twitter {
+  color: rgba(4, 98, 206, 0.747);
 }
-.instagram{
-    color: rgb(255, 210, 143);
+
+.instagram {
+  color: rgb(255, 210, 143);
 }
 
 /* Servicios */
-
-.mainServ{
-    background-color: #B6A6CA;
-    height: 60vh;
-    width: 100%;
-    color: white;
+.mainServ {
+  background-color: #B6A6CA;
+  height: 73vh;
+  width: 100%;
+  color: black;
+}
+.mainServ .card {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+.mainServ .card h3 {
+  font-size: large;
 }
 
-.mainServ a{
-    padding: 5px 5px;
-    text-decoration: none;
-    border: 2px solid black;
-    color: black;
-    font-weight: bold;
+.mainServ a {
+  color: black;
+  font-weight: bold;
 }
-.mainServ a:hover{
-    color: #FFF275;
+.mainServ a a:hover {
+  color: #FFF275;
 }
+
+/*# sourceMappingURL=estilos.css.map */

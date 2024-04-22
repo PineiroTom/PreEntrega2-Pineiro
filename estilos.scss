@@ -1,0 +1,170 @@
+$colorAmarillo: #FFF275 ;
+$colorLila: #B6A6CA;
+$colorNegro: black;
+$colorBlanco: white;
+$centro:center;
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background-color: $colorAmarillo !important;
+    height: 100px !important;
+    text-indent: 10px;
+}
+
+.nav-link, .navbar-brand{
+    color: $colorNegro;
+    font-weight: bolder;
+    scale: 1.2;
+}
+
+.nav-link:hover{
+    color: $colorLila;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.mainIndex{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Assets/skyscrapers-3184798_1920.jpg);
+    background-size: cover;
+
+    h2,p{
+        text-align:$centro;
+        font-weight: bold;
+    }
+}
+
+.mainIndex h2{
+    text-decoration: underline;
+}
+
+
+.promocion{
+    background-color: $colorAmarillo;
+    font-size: medium;
+    width: 100%;
+    color: $colorLila;
+    float: left;
+    border: 10px solid $colorNegro;
+    margin: 5px;
+    padding: 30px;
+}
+
+footer{
+    background-color: $colorNegro;
+    width: 100%;
+    text-align:$centro;
+    padding:20px;
+
+    p{
+        color: $colorBlanco;
+        margin-bottom: 20px;
+    }
+}
+
+.redes a{
+    font-size: 50px;
+    color: $colorAmarillo;
+    letter-spacing: 15px;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+        transition: 1.5s;
+    }
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Nosotros */
+.mainNos{
+    background-color: $colorBlanco;
+    width: 100%;
+}
+
+
+/* Paquetes */
+.mainPaq{
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+}
+
+.titulo{
+    text-align:$centro;
+    color: $colorBlanco;
+    padding: 15px;  
+}
+
+/* Contactos */
+
+.mainCont{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Assets/people-2557396_1920.jpg);
+    background-size: cover;
+}
+
+.Paquete2{
+    border: 5px solid $colorLila;
+    color: $colorBlanco;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    padding: 20px;
+}
+
+.redesCont a{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.wsp{
+    color:green;
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: rgba(4, 98, 206, 0.747);
+}
+.instagram{
+    color: rgb(255, 210, 143);
+}
+
+/* Servicios */
+
+.mainServ{
+    background-color: $colorLila;
+    height: 73vh;
+    width: 100%;
+    color: $colorNegro;
+    
+    .card{
+        background-color:rgba(0, 0, 0, 0.11);
+
+        h3{
+            font-size: large;  
+        }  
+    }      
+}
+
+.mainServ a{
+    color: $colorNegro;
+    font-weight: bold;
+    & a:hover{
+        color: $colorAmarillo;
+    }
+}
